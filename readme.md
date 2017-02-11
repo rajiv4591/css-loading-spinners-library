@@ -6,7 +6,7 @@ Live at:
 http://immense-harbor-81488.herokuapp.com/
 
 
-How to use it in you project:
+How to use it in your project:
 
 1. Copy the scss folder from the project files into your project files.
 2. Set it up to where your sass compiler compiles this folder too.
