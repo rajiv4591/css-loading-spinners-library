@@ -1,0 +1,8 @@
+//ls-square-alternate
+
+.ls-square-alternate {
+    width: $width-height;
+    height: $width-height;
+    background: $ls-square-background;
+    animation: square-alternate 1s linear infinite;
+}

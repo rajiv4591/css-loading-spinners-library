@@ -1,0 +1,27 @@
+
+body {
+    padding: 50px;
+}
+
+.border-box {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.display-box {
+    display: inline-block;
+    border: 1px solid #dadadb;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.margin-auto {
+    margin: auto;
+}

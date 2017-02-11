@@ -1,0 +1,8 @@
+//ls-square-translate
+.ls-square-translate {
+    width: $square-translate-width-height;
+    height: $square-translate-width-height;
+    background: $ls-square-background;
+    position: relative;
+    animation: square-translate 1s linear infinite;
+}

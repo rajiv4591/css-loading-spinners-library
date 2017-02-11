@@ -1,0 +1,81 @@
+/* KEYFRAMES DECLERATIONS */
+@keyframes spin {
+    to {@include rotate;}
+}
+
+@-webkit-keyframes spin {
+    to {@include rotate;}
+}
+
+@keyframes vibrant {
+    20% {@include rotate; border-top-color: $ls-vibrant-color1;}
+
+    40% {@include rotate; border-top-color: $ls-vibrant-color2;}
+
+    60% {@include rotate; border-top-color: $ls-vibrant-color3;}
+
+    80% {@include rotate; border-top-color: $ls-vibrant-color4;}
+
+    100% {@include rotate; border-top-color: $ls-vibrant-color5;}
+}
+
+@-webkit-keyframes vibrant {
+    20% {@include rotate; border-top-color: $ls-vibrant-color1;}
+
+    40% {@include rotate; border-top-color: $ls-vibrant-color2;}
+
+    60% {@include rotate; border-top-color: $ls-vibrant-color3;}
+
+    80% {@include rotate; border-top-color: $ls-vibrant-color4;}
+
+    100% {@include rotate; border-top-color: $ls-vibrant-color5;}
+}
+
+@keyframes to-and-fro {
+    20% {@include rotate;}
+}
+
+@-webkit-keyframes to-and-fro {
+    20% {@include rotate;}
+}
+
+@keyframes square {
+    0% {@include rotateZ;}
+    25% {@include rotateX;}
+    50% {@include rotateY;}
+}
+
+@-webkit-keyframes square {
+    0% {@include rotateZ;}
+    25% {@include rotateX;}
+    50% {@include rotateY;}
+}
+
+@keyframes square-rotate {
+    to {@include rotateZ;}
+}
+
+@-webkit-keyframes square-rotate {
+    to {@include rotateZ;}
+}
+
+@keyframes square-translate {
+    0%   {left:0px; top:0px;}
+    25%  {left:50px; top:0px;}
+    50%  {left:50px; top:50px;}
+    75%  {left:0px; top:50px;}
+    100% {left:0px; top:0px;}
+}
+
+@-webkit-keyframes square-translate {
+    0%   {left:0px; top:0px;}
+    25%  {left:50px; top:0px;}
+    50%  {left:50px; top:50px;}
+    75%  {left:0px; top:50px;}
+    100% {left:0px; top:0px;}
+}
+
+@keyframes square-alternate {
+    50%  {width:($width-height/2); height: ($width-height/2); background: $square-alternate-background}
+}
+/* END KEYFRAMES */

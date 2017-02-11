@@ -1,0 +1,244 @@
+/* A Css loading spinner library using keyframes */
+/*Import helper files */
+/* VARIABLE DECLERATIONS */
+/* Mixin Decelerations */
+/* KEYFRAMES DECLERATIONS */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg); } }
+
+@-webkit-keyframes spin {
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg); } }
+
+@keyframes vibrant {
+  20% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    border-top-color: #009933; }
+  40% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    border-top-color: #ff6600; }
+  60% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    border-top-color: #0099ff; }
+  80% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    border-top-color: #ff66cc; }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    border-top-color: #9900ff; } }
+
+@-webkit-keyframes vibrant {
+  20% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    border-top-color: #009933; }
+  40% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    border-top-color: #ff6600; }
+  60% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    border-top-color: #0099ff; }
+  80% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    border-top-color: #ff66cc; }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    border-top-color: #9900ff; } }
+
+@keyframes to-and-fro {
+  20% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg); } }
+
+@-webkit-keyframes to-and-fro {
+  20% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg); } }
+
+@keyframes square {
+  0% {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg); }
+  25% {
+    transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg); }
+  50% {
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg); } }
+
+@-webkit-keyframes square {
+  0% {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg); }
+  25% {
+    transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg); }
+  50% {
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg); } }
+
+@keyframes square-rotate {
+  to {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg); } }
+
+@-webkit-keyframes square-rotate {
+  to {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg); } }
+
+@keyframes square-translate {
+  0% {
+    left: 0px;
+    top: 0px; }
+  25% {
+    left: 50px;
+    top: 0px; }
+  50% {
+    left: 50px;
+    top: 50px; }
+  75% {
+    left: 0px;
+    top: 50px; }
+  100% {
+    left: 0px;
+    top: 0px; } }
+
+@-webkit-keyframes square-translate {
+  0% {
+    left: 0px;
+    top: 0px; }
+  25% {
+    left: 50px;
+    top: 0px; }
+  50% {
+    left: 50px;
+    top: 50px; }
+  75% {
+    left: 0px;
+    top: 50px; }
+  100% {
+    left: 0px;
+    top: 0px; } }
+
+@keyframes square-alternate {
+  50% {
+    width: 50px;
+    height: 50px;
+    background: #42f483; } }
+
+/* END KEYFRAMES */
+/* Import components */
+.ls-basic {
+  width: 100px;
+  height: 100px;
+  border: 15px solid #dadadb;
+  border-top: 15px solid #888;
+  border-radius: 50%;
+  animation: spin 2s linear infinite; }
+
+.ls-google-style {
+  width: 100px;
+  height: 100px;
+  border: 15px solid transparent;
+  border-top: 15px solid #26B14C;
+  border-right: 15px solid #3284FF;
+  border-bottom: 15px solid #FFBB00;
+  border-radius: 50%;
+  animation: spin 2s ease-in-out infinite; }
+
+.ls-vibrant {
+  width: 100px;
+  height: 100px;
+  border: 15px solid #dadadb;
+  border-radius: 50%;
+  animation: vibrant 2s linear infinite; }
+
+.ls-to-and-fro {
+  width: 100px;
+  height: 100px;
+  border: 15px solid #dadadb;
+  border-top: 15px solid #888;
+  border-radius: 50%;
+  animation: to-and-fro 2s linear infinite; }
+
+.ls-square {
+  width: 100px;
+  height: 100px;
+  background: #4286f4;
+  animation: square 1s linear infinite; }
+
+.ls-square-rotate {
+  width: 100px;
+  height: 100px;
+  background: #4286f4;
+  animation: square-rotate 2s linear infinite; }
+
+.ls-square-translate {
+  width: 10px;
+  height: 10px;
+  background: #4286f4;
+  position: relative;
+  animation: square-translate 1s linear infinite; }
+
+.ls-square-alternate {
+  width: 100px;
+  height: 100px;
+  background: #4286f4;
+  animation: square-alternate 1s linear infinite; }

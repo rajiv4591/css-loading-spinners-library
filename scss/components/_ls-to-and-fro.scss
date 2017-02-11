@@ -1,0 +1,10 @@
+//ls-to-and-fro
+
+.ls-to-and-fro {
+    width: $width-height;
+    height: $width-height;
+    border: $border-width solid $ls-basic-background;
+    border-top: $border-width solid $ls-basic-color;
+    border-radius: 50%;
+    animation: to-and-fro 2s linear infinite;
+}

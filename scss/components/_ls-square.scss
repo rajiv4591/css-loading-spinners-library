@@ -1,0 +1,7 @@
+//ls-square
+.ls-square {
+    width: $width-height;
+    height: $width-height;
+    background: $ls-square-background;
+    animation: square 1s linear infinite;
+}

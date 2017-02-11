@@ -1,0 +1,9 @@
+//ls-vibrant
+
+.ls-vibrant {
+    width: $width-height;
+    height: $width-height;
+    border: $border-width solid $ls-basic-background;
+    border-radius: 50%;
+    animation: vibrant 2s linear infinite;
+}

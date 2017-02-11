@@ -1,0 +1,10 @@
+//ls-basic
+
+.ls-basic {
+    width: $width-height;
+    height: $width-height;
+    border: $border-width solid $ls-basic-background;
+    border-top: $border-width solid $ls-basic-color;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}

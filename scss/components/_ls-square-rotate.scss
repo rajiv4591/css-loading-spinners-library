@@ -1,0 +1,7 @@
+//ls-square-rotate
+.ls-square-rotate {
+    width: $width-height;
+    height: $width-height;
+    background: $ls-square-background;
+    animation: square-rotate 2s linear infinite;
+}
